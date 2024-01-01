@@ -33,7 +33,7 @@ const cartItemAddHandler = () =>{}
       {cartItems}
       <div>
         <span>TotalAmount</span>
-        <h2>Total Amount :{totalAmount}</h2> {/* Use the level from context */}
+        <h2>Total Amount:{totalAmount}</h2> {/* Use the level from context */}
       </div>
       <div className={classes.actions}>
         <button className={classes["button-alt"]} onClick={props.onClose}>
